@@ -31,3 +31,7 @@ TEST(Visual001Test, MinusTest)
 {
 	EXPECT_EQ(0, getMinus(1, 1));
 }
+
+TEST(TestCaseName, TestGetSumSum) {
+	EXPECT_EQ(6, getSumSum(1, 2, 3));
+}
