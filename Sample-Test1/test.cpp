@@ -11,6 +11,10 @@ TEST(TestCaseName, TestName2) {
 	EXPECT_TRUE(true);
 }
 
+TEST(TestCaseName, SumTest) {
+  EXPECT_EQ(5, getSum(2, 3));
+}
+
 TEST(Visual001Test, MinusTest)
 {
 	EXPECT_EQ(0, getMinus(1, 1));
